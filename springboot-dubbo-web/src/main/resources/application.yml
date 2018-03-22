@@ -1,0 +1,14 @@
+server:
+  port: 9090
+spring:
+  application:
+    name: web
+dubbo:
+  application:
+    id: springboot-dubbo-web
+    name: springboot-dubbo-web
+  registry:
+    address: zookeeper://192.168.1.134:2181
+#日志
+logging:
+  file: ./logs/zhangyq-shop-springboot-web.log
